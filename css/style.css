@@ -1,0 +1,534 @@
+@font-face {
+  font-family: AlrightSansLT;
+  src: url("../fonts/AlrightSans-Regular.otf");
+  src: url("../fonts/AlrightSans-Regular.eot") format ("embedded-opentype"),
+  src: url("../fonts/AlrightSans-Regular.woff") format ("woof"),
+  src: url("../fonts/AlrightSans-Regular.ttf") format ("truetype"),
+  src: url("../fonts/AlrightSans-Regular.svg") format ("svg");
+
+
+}
+
+@font-face {
+  font-family: TiemposText;
+  src: url(../fonts/TiemposHeadline-Regular.otf);
+  src: url("../fonts/TiemposHeadline-Regular.eot") format ("embedded-opentype"),
+  src: url("../fonts/TiemposHeadline-Regular.woff") format ("woof"),
+  src: url("../fonts/TiemposHeadline-Regular.ttf") format ("truetype"),
+  src: url("../fonts/TiemposHeadline-Regular.svg") format ("svg");
+}
+
+@font-face {
+  font-family: TiemposHeadline;
+  src: url(../fonts/TiemposHeadline-Medium.otf);
+  src: url("../fonts/TiemposHeadline-Medium.eot") format ("embedded-opentype"),
+  src: url("../fonts/TiemposHeadline-Medium.woff") format ("woof"),
+  src: url("../fonts/TiemposHeadline-Medium.ttf") format ("truetype"),
+  src: url("../fonts/TiemposHeadline-Medium.svg") format ("svg");
+
+}
+/* ==================
+Global Selectors
+===================*/
+
+body{
+  width:600px;
+  margin:auto;
+}
+
+/* ==================
+Class Selectors
+===================*/
+
+/* ==== Nav =======*/
+
+.rs-logo {
+  margin-left: 51px;
+  padding-top: 14px;
+  width: 141px;
+  height: 36px;
+  object-fit: contain;
+  float:left;
+}
+
+.View-in-your-browser {
+  width: 99px;
+  height: 13px;
+  padding-left: 459px;
+  padding-right:42px;
+  padding-top:27px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  text-align: left;
+  color: #ec5447;
+}
+
+/* == End of Nav selectors == */
+
+/* ==== Header selectors ==== */
+
+.section-left{
+  float:left;
+}
+
+.Summer-Newsletter {
+  width: 200px;
+  height: 90px;
+  font-family: TiemposText;
+  font-size: 44px;
+  line-height: 1.02;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #0a273c;
+  padding-top: 15px;
+  margin-left: 49px;
+  margin-right: 42px;
+  margin-bottom: 0px;
+}
+
+.NewsletterGraphicPlaceholder {
+  width: 193px;
+  height: 196px;
+  object-fit: contain;
+  float:left;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+
+.z {
+  width: 273px;
+  height: 34px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: left;
+  color: #85939e;
+  margin-left: 51px;
+}
+
+
+
+/* == End of header selectors == */
+
+/* ==== Section selectors ==== */
+
+.Rectangle-3 {
+  width: 509px;
+  height: 477px;
+  background-color: #ffffff;
+  margin-top: 316px;
+  margin-left: 49px;
+}
+
+.Bitmap {
+  width: 509px;
+  height: 166px;
+  object-fit: contain;
+}
+
+.TRACTION {
+  width: 53px;
+  height: 13px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #60cbe2;
+  padding-top:40px;
+  padding-left:137px;
+}
+
+.Rectangle-4 {
+  width: 64px;
+  height: 1px;
+  opacity: 0.47;
+  background-color: #85939e;
+  border:1px solid lightgrey;
+  margin-left: 38px;
+  float:left;
+  margin-top: 8px;
+
+}
+
+.Traction-Conference {
+  height: 23px;
+  font-family: TiemposHeadline;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #0a273c;
+  margin-left: 33px;
+  float:left;
+}
+
+.Hi-There-Were-stil {
+  width: 330px;
+  height: 164px;
+  opacity: 0.73;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #0a273c;
+  padding-left: 137px;
+  padding-top: 5px;
+  clear: both;
+}
+
+.Hi-There-Were-stil .text-style-1 {
+  color: #ec5447;
+}
+
+.dotted-underline {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  color: #0a273c;
+
+}
+
+/* == End of header selectors == */
+
+/* ==== Article Tips ===== */
+
+.-Tips-for-Action {
+  width: 199px;
+  height: 32px;
+  font-family: TiemposText;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #0a273c;
+  padding-left:200.5px;
+  margin-bottom: 5px;
+}
+
+.All-the-things-you-n {
+  width: 291px;
+  height: 18px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  text-align: center;
+  color: #0a273c;
+  padding-left: 155px;
+  margin-top: 0px;
+}
+
+/* == End of Article Tips == */
+
+/* ==== Article Investing & Social Media ===== */
+
+.Rectangle-5 {
+  width: 510px;
+  height: 136px;
+  background-color: #ffffff;
+  border: solid 1px #eceef0;
+  margin-left: 49px;
+  margin-bottom: 20px;
+}
+
+.growth-icon {
+  width: 57px;
+  height: 57px;
+  object-fit: contain;
+  padding-left: 50px;
+  padding-top: 37px;
+  padding-bottom: 42px;
+  float:left;
+}
+.table{
+  padding-left: 33px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.Investing-for-brand, .Social-Media-Trends {
+  width: 280px;
+  height: 20px;
+  font-family: AlrightSansLT;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #0a273c;
+}
+
+.Zapier-is-an-incredi {
+  width: 320px;
+  height: 32px;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  text-align: left;
+  color: #85939e;
+}
+
+.read-more {
+  width: 61px;
+  height: 13px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: left;
+  color: #60cbe2;
+}
+
+/* == End of Article Investing & Social Media == */
+
+/* ======= Line / Separation ===== */
+
+.Line-2 {
+  width: 600px;
+  height: 1px;
+  border: solid 1px #eceef0;
+  background-color: #eceef0;
+}
+
+/* ===End of Line / Separation ===== */
+
+/* ======= Your Favourite Blog Posts ===== */
+
+.Your-favourite-blog {
+  width: 302px;
+  height: 32px;
+  font-family: TiemposText;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #0a273c;
+  padding-left: 150px;
+  margin-bottom: 0px;
+}
+
+.Our-readers-have-fou {
+  width: 376px;
+  height: 18px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  text-align: center;
+  color: #0a273c;
+  padding-left: 113px;
+  margin-top: 5px;
+}
+
+/* Rectangles selectors*/
+
+.wrapper{
+  margin-left: 43px;
+
+ }
+
+.Rectangle-3-Copy-2 {
+  width: 242px;
+  height: 275px;
+  background-color: #ffffff;
+  border: solid 1px #eceef0;
+  float:left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+/* End of Rectangles selectors */
+
+/* Rectangle-left */
+
+.rs-blog-illustration-traction{
+  width: 240px;
+  height: 98px;
+  object-fit: contain;
+}
+
+.TRACTION-RECTANGLE {
+  width: 53px;
+  height: 13px;
+  font-family: AlrightSansLT;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #60cbe2;
+  margin-left:15px;
+}
+
+.Takeaway-from-Tracti {
+  width: 212px;
+  height: 22px;
+  font-family: TiemposHeadline;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.38;
+  text-align: left;
+  color: #0a273c;
+  margin-left:15px;
+}
+
+.We-learned-so-much-f {
+  width: 212px;
+  height: 90px;
+  opacity: 0.73;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: #0a273c;
+  margin-left:15px;
+}
+
+/* End of Rectangle-left */
+
+/* Rectangle-right */
+
+.rs-blog-automationmadeeasy_1024 {
+  width: 240px;
+  height: 98.6px;
+  object-fit: contain;
+}
+
+.Sales-Automation-Mad {
+  width: 212px;
+  height: 22px;
+  font-family: TiemposHeadline;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.38;
+  text-align: left;
+  color: #0a273c;
+  margin-left:15px;
+}
+
+/* End of Rectangle-right */
+
+/* === End of Your Favourite Blog Posts === */
+
+/* ======= Orange Rectangle Selectors =======*/
+
+.Orange-rectangle {
+  width: 600px;
+  height: 50px;
+  background-color: #ec5447;
+  clear:both;
+}
+
+.We-now-do-CRO-let-u {
+  width: 444px;
+  height: 19px;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 78px;
+  padding-top: 15px;
+
+}
+
+.We-now-do-CRO-let-u .text-style-1 {
+  font-weight: 500;
+}
+
+/* == End of Orange Rectangle Selectors =======*/
+
+/* ======== Footer ============== */
+
+.footer-top-left{
+  margin-top:29px;
+  margin-bottom:28px;
+  margin-left: 45px;
+  float:left;
+}
+
+.Made-in-Canada {
+  width: 108px;
+  height: 18px;
+  opacity: 0.5;
+  font-family: AlrightSansLT;
+  font-size: 14px;
+  text-align: left;
+  color: #85939e;
+  float:left;
+  margin-left: 45px;
+}
+
+.Made-in-Canada .text-style-1 {
+  font-weight: bold;
+}
+
+.canada{
+  width: 14px;
+  height: 13px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+.footer-top-right{
+  margin-top:29px;
+  margin-bottom:28px;
+  float:left;
+  margin-left: 169px;
+}
+
+.linkedin-icon, .twitter-icon, .facebook-icon, .instagram-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  float:left;
+  margin-right: 10px;
+}
+
+.Line-Copy-3 {
+  width: 600px;
+  height: 1px;
+  border: solid 1px #eceef0;
+  background-color: #eceef0;
+  clear:both;
+}
+
+.list{
+  margin-left: 162px;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+.Unsubscribe {
+  width: 93px;
+  height: 16px;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #0a273c;
+  letter-spacing: normal;
+}
+
+.View-in-browser {
+  width: 121px;
+  height: 16px;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #0a273c;
+}
+
+.Red-Stamp {
+  width: 315px;
+  height: 16px;
+  opacity: 0.5;
+  font-family: AlrightSansLT;
+  font-size: 12px;
+  text-align: left;
+  color: #85939e;
+  margin-left: 165px;
+}
+
+.footer-logo{
+  margin-left: 229px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+
+
+
