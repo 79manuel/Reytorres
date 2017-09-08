@@ -1,5 +1,5 @@
 
-Hello Gaelan,
+Hello Gaelen,
 
 The summer newsletter template is:
 - Responsive and mobile friendly
