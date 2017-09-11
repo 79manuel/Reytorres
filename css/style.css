@@ -28,7 +28,7 @@
 
 }
 
-@media all and (min-width: 501px) and (max-width: 1400px) {
+@media all and (min-width: 451px) and (max-width: 1400px) {
 /* ==================
 Global Selectors
 ===================*/
@@ -979,7 +979,7 @@ Class Selectors
 }
 
 .Line-Copy-3 {
-  width: 600px;
+  width: 450px;
   height: 1px;
   border: solid 1px #eceef0;
   background-color: #eceef0;
