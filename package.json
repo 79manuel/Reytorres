@@ -1,0 +1,19 @@
+{
+  "name": "techtest",
+  "version": "1.0.0",
+  "description": "Hello Gaelen,",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/79manuel/techtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/79manuel/techtest/issues"
+  },
+  "homepage": "https://github.com/79manuel/techtest#readme"
+}
