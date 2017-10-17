@@ -1,4 +1,4 @@
 #Currently working. Rey Torres photographer web site.
 
 
-![Home Page](https://github.com/79manuel/Cover/blob/master/public/Home%20Page.png?raw=true)
+![Home Page Laptop](https://github.com/79manuel/Reytorres/blob/master/docs/homepage.png?raw=true)
