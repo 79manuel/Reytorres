@@ -7,7 +7,7 @@
 
 ![Home Page2 Laptop](https://github.com/79manuel/Reytorres/blob/master/docs/homepage2.png?raw=true)
 
-![Home Page2 Mobile](https://github.com/79manuel/Reytorres/blob/master/docs/homepage2-mobile.png?raw=true)
+![Home Page2 Mobile](https://github.com/79manuel/Reytorres/blob/master/docs/homapage2-mobile.png?raw=true)
 
 ![About Laptop](https://github.com/79manuel/Reytorres/blob/master/docs/about.png?raw=true)
 
