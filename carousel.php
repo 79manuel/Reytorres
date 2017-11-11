@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rey Torres - About</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/carousel-style.css">
-  </head>
-
-  <body>
-
-<!-- ============= NAV ======================
- -->
-
-
-<!-- ============== End of NAV ===============
- -->
+<?php
+  include 'head.php';
+?>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -36,7 +18,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="CarouselImg" src="https://farm2.staticflickr.com/1488/23495302163_24aa1640e1_b.jpg" alt="2016 Vancouver Polar Bear Swim">
+          <img class="CarouselImg" src="https://farm6.staticflickr.com/5736/21859800544_5491969713_c.jpg" alt="2016 Vancouver Polar Bear Swim">
           <div class="container">
             <div class="carousel-caption">
               <h3>2016 Vancouver Polar Bear Swim</h3>
@@ -44,7 +26,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="CarouselImg" src="https://farm1.staticflickr.com/777/21571682152_09e94e3873_b.jpg" alt="Burning Man 2015">
+          <img class="CarouselImg" src="https://farm4.staticflickr.com/3858/15196837955_dbff7615de.jpg" alt="Burning Man 2015">
           <div class="container">
             <div class="carousel-caption">
               <h3>Burning Man 2015</h3>
@@ -52,7 +34,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="CarouselImg" src="https://farm8.staticflickr.com/7282/16586659489_9b9abb8384_b.jpg" alt="Cosplay vancouver">
+          <img class="CarouselImg" src="https://farm2.staticflickr.com/1585/25609542916_7a64817f0a_b.jpg" alt="Cosplay vancouver">
           <div class="container">
             <div class="carousel-caption">
               <h3>Cosplay vancouver</h3>
@@ -126,15 +108,8 @@
       </a>
     </div>
 
-    <!-- ============== FOOTER ========================== -->
-
-    <footer class="footer">
-      <div class="container">
-        <p class="footer-name">2017 &copy; Rey Torres</p>
-      </div>
-    </footer>
-
-<!-- ============== End of FOOTER ======================= -->
-
-</body>
+    <?php
+      include 'footer.ph';
+    ?>
+  </body>
 </html>

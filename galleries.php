@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rey Torres - Galleries</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  </head>
-  </head>
-
-  <body class="background">
+<?php
+    include 'head.php';
+?>
+<body class="background">
 <!-- ========== CAROUSEL ======== -->
 
 
@@ -22,16 +10,9 @@
    -->
 <!-- ============== HEADER ===================== -->
 
-    <div class="wrapper">
-      <div class="wrapper-1">
-        <header class="container">
-          <div class="row">
-            <div class="col-sm-5 title">
-              <h1>Rey Torres</h1>
-              <h4>Photographer</h4>
-            </div>
-          </div>
-        </header>
+    <?php
+        include 'header.php';
+    ?>
 
 <!-- ============== End of HEADER =================== -->
 
@@ -44,8 +25,8 @@
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu menu">
-          <li><a href="index.html"><h4>Home</h4></a></li>
-          <li><a href="about.html"><h4>About</h4></a></li>
+          <li><a href="index.php"><h4>Home</h4></a></li>
+          <li><a href="about.php"><h4>About</h4></a></li>
           <li><a href="#"><h4>Galleries</h4></a></li>
           <li><a href="#"><h4>Contact</h4></a></li>
         </ul>
@@ -54,10 +35,10 @@
       <div class="container">
           <div class="row">
             <ul class="menu nav">
-              <li><a href="index.html"><h4>Home</h4></a></li>
-              <li><a href="about.html"><h4>About</h4></a></li>
+              <li><a href="index.php"><h4>Home</h4></a></li>
+              <li><a href="about.php"><h4>About</h4></a></li>
               <li><a><h4>Galleries</h4></a></li>
-              <li><a href="#"><h4>Contact</h4></a></li>
+              <li><a href="contact.php"><h4>Contact</h4></a></li>
             </ul>
           </div>
         </div>
@@ -77,7 +58,7 @@
               <div class="gallery-mobile">
                 <a href="carousel.html"><figure>
                     <div class="zoom overlay">
-                      <img src="./img/portrait.jpeg" alt="sunset" class="image" style="width:100%">
+                      <img src="https://farm9.staticflickr.com/8194/8137328977_6af368eb4f.jpg" width="332" height="500" alt="Mandala (33)" class="image">
                       <div class="middle">
                         <div class="text"> People
                         </div>
@@ -86,7 +67,7 @@
                   </figure></a>
                  <a href="carousel.html"><figure>
                     <div class="zoom overlay">
-                      <img src="./img/portrait.jpeg" alt="sunset" class="image" style="width:100%">
+                      <img src="./img/portrait.jpeg" alt="sunset" class="image">
                       <div class="middle">
                         <div class="text"> Burning Man
                         </div>
@@ -119,7 +100,7 @@
               <ul class="gallery-laptop">
                 <li><a href="carousel.html"><figure>
                   <div class="zoom overlay">
-                    <img src="./img/portrait.jpeg" alt="sunset" class="image" style="width:100%">
+                    <img src="https://farm9.staticflickr.com/8332/8137358458_4153c241d6.jpg" alt="Mandala (33)" class="image">
                     <div class="middle">
                       <div class="text"> People
                       </div>
@@ -128,9 +109,9 @@
                 </figure></a></li>
                 <li><a href="carousel.html"><figure>
                   <div class="zoom overlay">
-                    <img src="./img/portrait.jpeg" alt="sunset" class="image" style="height:auto;">
+                    <img src="https://farm6.staticflickr.com/5758/22809001491_33fa33d68f.jpg" alt="amalfi" class="image">
                     <div class="middle">
-                      <div class="text"> Burning Man
+                      <div class="text"> Landscapes
                       </div>
                     </div>
                   </div>
@@ -138,9 +119,9 @@
 
                 <li><a href="carousel.html"><figure>
                   <div class="zoom overlay">
-                    <img src="https://farm2.staticflickr.com/1488/23495302163_24aa1640e1_b.jpg" alt="polar bear swim" class="image">
+                    <img src="https://farm8.staticflickr.com/7323/12945745365_76af78ab29.jpg" alt="san miguel de allende" class="image">
                     <div class="middle">
-                      <div class="text"> Polar bear swim
+                      <div class="text"> Travel
                       </div>
                     </div>
                   </div>
@@ -149,7 +130,7 @@
                   <div class="zoom overlay">
                     <img src="./img/sunset.jpg" alt="sunset" class="image">
                     <div class="middle">
-                      <div class="text"> Photo title
+                      <div class="text"> Events
                       </div>
                     </div>
                   </div>
@@ -164,15 +145,10 @@
 
 <!-- ============== FOOTER ========================== -->
 
-    <footer class="footer">
-      <div class="container">
-        <ul class="icons">
-          <li><a href="https://www.facebook.com/reytorres"><img class="social-icon" src="./img/facebook.svg" alt="fabebook icon"></a></li>
-          <li><a href="https://www.instagram.com/reytorr/"><img class="social-icon" src="./img/instagram.svg" alt="fabebook icon"></a></li>
-          <li><a href="https://www.flickr.com/photos/emorey/"><img class="social-icon" src="./img/flickr.svg" alt="fabebook icon"></a></li>
-        <p class="footer-name">2017 &copy; Rey Torres</p>
-      </div>
-    </footer>
+    <?php
+        include 'footer.php';
+    ?>
+
 
 <!-- ============== End of FOOTER ======================= -->
 

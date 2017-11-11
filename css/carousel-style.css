@@ -12,8 +12,8 @@ html {
   height: 100%;
 }
 .CarouselImg {
-  width: 1300px;
-  height: 575px;
+  width: 100% !important;
+  height: 95% !important;
 }
 
 

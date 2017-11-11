@@ -206,7 +206,7 @@ figure > img {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  height: 200px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -240,6 +240,31 @@ figure > img {
 
 /*=========== End of GALLERIES ==========*/
 
+/*============ CONTACT ==================*/
+
+.contact-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.no-decoration {
+  color: black;
+}
+
+.no-decoration:hover {
+  text-decoration: none;
+  text-shadow: 2px 2px lightgrey;
+  transition: 1s;
+}
 
 /*============== FOOTER =========*/
 .footer {
